@@ -18,6 +18,8 @@ def key_for_min_value(name_hash)
     min = name_hash[num]   
     if num < min
       min = num
+    else
+      nil 
   end
   name 
 end
