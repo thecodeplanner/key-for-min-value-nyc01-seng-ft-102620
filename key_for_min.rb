@@ -18,7 +18,7 @@ def key_for_min_value(name_hash)
     min = name_hash[num][0]   
     if #{num} < min
       min = #{num}
-    if name_hash = {}
+    if #{name} == {}
       nil 
   end
   #{name} 
