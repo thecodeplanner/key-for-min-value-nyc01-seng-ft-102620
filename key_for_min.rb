@@ -33,6 +33,6 @@ def key_for_min_value(name_hash)
     if #{name} == {}
       nil 
   end
-  #{name} 
+  low_key
 end
 end
