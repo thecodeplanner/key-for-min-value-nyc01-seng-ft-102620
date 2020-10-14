@@ -16,11 +16,11 @@
 def key_for_min_value(name_hash)
   name_hash.each do |name, num|
     min = name_hash[num][0]   
-    if num < min
-      min = num
+    if #{num} < min
+      min = #{num}
     if name_hash = {}
       nil 
   end
-  name 
+  #{name} 
 end
 end
