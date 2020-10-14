@@ -23,3 +23,15 @@
 #   end
 #   #{name} 
 # end
+
+def key_for_min_value(name_hash)
+  name_hash.each do |name, num|
+    low_key = #{name} 
+    min = name_hash[]
+    if #{num} < min
+      min = #{num}
+    if #{name} == {}
+      nil 
+  end
+  #{name} 
+end
