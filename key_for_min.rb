@@ -17,6 +17,7 @@ def key_for_min_value(name_hash)
   min = 0
   low_value = ""
   name_hash.each do |furniture, price|
+    key = #{price}
     if price < min  
       min = price
     else 
