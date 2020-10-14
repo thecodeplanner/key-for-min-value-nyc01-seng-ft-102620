@@ -14,14 +14,11 @@
 # end
 
 def key_for_min_value(name_hash)
-  min = 0
-  name_hash.each do |furniture, price|
-    key = #{furniture}
-    if price < min  
-      min = price
-    else 
-      nil
+  name_hash.each do |name, num|
+    min = nil
+    if num < min  || num == nil
+      min = num
   end
-  key
+  name 
 end
 end
