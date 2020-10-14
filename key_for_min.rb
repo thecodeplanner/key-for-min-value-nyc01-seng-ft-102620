@@ -27,7 +27,7 @@
 def key_for_min_value(name_hash)
   name_hash.each do |name, num|
     low_key = #{name} 
-    min = name_hash[]
+    min = name_hash[num]
     if #{num} < min
       min = #{num}
     if #{name} == {}
