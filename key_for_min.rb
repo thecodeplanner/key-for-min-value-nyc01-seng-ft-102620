@@ -30,7 +30,6 @@ def key_for_min_value(name_hash)
     min = name_hash[num]
     if #{num} < min
       min = #{num}
-  end
-  low_key
+    return low_key
 end
 
